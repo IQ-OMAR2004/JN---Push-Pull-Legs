@@ -1,0 +1,779 @@
+{
+  "Back Squat": {
+    "slug": "Barbell_Squat",
+    "primary": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondary": [
+      "Hamstrings",
+      "Lower Back",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/shorts/iZTxa8NJH2g"
+  },
+  "Deadlift": {
+    "slug": "Barbell_Deadlift",
+    "primary": [
+      "Glutes",
+      "Hamstrings",
+      "Lower Back"
+    ],
+    "secondary": [
+      "Lats",
+      "Traps",
+      "Forearms",
+      "Quadriceps"
+    ],
+    "video": "https://www.youtube.com/shorts/ZaTM37cfiDs"
+  },
+  "Barbell Hip Thrust": {
+    "slug": "Barbell_Hip_Thrust",
+    "primary": [
+      "Glutes"
+    ],
+    "secondary": [
+      "Hamstrings",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/watch?v=WvRJiXWiZXc"
+  },
+  "Dumbbell Walking Lunge": {
+    "slug": "Dumbbell_Lunges",
+    "primary": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondary": [
+      "Hamstrings",
+      "Calves",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/shorts/Rkkc-FnURyc"
+  },
+  "Leg Extension": {
+    "slug": "Leg_Extensions",
+    "primary": [
+      "Quadriceps"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/iQ92TuvBqRo"
+  },
+  "Seated Leg Curl": {
+    "slug": "Seated_Leg_Curl",
+    "primary": [
+      "Hamstrings"
+    ],
+    "secondary": [
+      "Calves"
+    ],
+    "video": "https://www.youtube.com/watch?v=1Tq3QdYUuHs"
+  },
+  "Standing Calf Raise": {
+    "slug": "Standing_Calf_Raises",
+    "primary": [
+      "Calves"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/B30JglFGx8Y"
+  },
+  "Front Squat": {
+    "slug": "Front_Barbell_Squat",
+    "primary": [
+      "Quadriceps"
+    ],
+    "secondary": [
+      "Glutes",
+      "Core",
+      "Upper Back"
+    ],
+    "video": "https://www.youtube.com/shorts/r6Z_h_WAX5o"
+  },
+  "Cable Pull Through": {
+    "slug": "Pelvic_Tilt_Into_Bridge",
+    "primary": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "secondary": [
+      "Lower Back"
+    ],
+    "video": "https://youtu.be/0MGx97YdFg0?t=11m35s"
+  },
+  "Single-Leg Leg Press": {
+    "slug": "Sled_Leg_Press",
+    "primary": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondary": [
+      "Hamstrings"
+    ],
+    "video": "https://www.youtube.com/shorts/nDh_BlnLCGc"
+  },
+  "Single-Leg Leg Extension": {
+    "slug": "Single_Leg_Leg_Extension",
+    "primary": [
+      "Quadriceps"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/iQ92TuvBqRo"
+  },
+  "Swiss Ball Single-Leg Leg Curl": {
+    "slug": "Lying_Leg_Curls",
+    "primary": [
+      "Hamstrings"
+    ],
+    "secondary": [
+      "Glutes",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/watch?v=lQSlJHtsnRA"
+  },
+  "Barbell Bench Press": {
+    "slug": "Barbell_Bench_Press_-_Medium_Grip",
+    "primary": [
+      "Chest"
+    ],
+    "secondary": [
+      "Triceps",
+      "Front Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/0cXAp6WhSj4"
+  },
+  "Dumbbell Seated Shoulder Press": {
+    "slug": "Dumbbell_Shoulder_Press",
+    "primary": [
+      "Front Delts",
+      "Side Delts"
+    ],
+    "secondary": [
+      "Triceps",
+      "Upper Chest"
+    ],
+    "video": "https://www.youtube.com/shorts/4LBVP2Oe7fg"
+  },
+  "Weighted Dip": {
+    "slug": "Dips_-_Triceps_Version",
+    "primary": [
+      "Chest",
+      "Triceps"
+    ],
+    "secondary": [
+      "Front Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/fA1ly8FeufE"
+  },
+  "Low-to-High Cable Flye": {
+    "slug": "Cable_Crossover",
+    "primary": [
+      "Upper Chest"
+    ],
+    "secondary": [
+      "Front Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/yrpiK8R4Vqo"
+  },
+  "Dumbbell Isolateral Skull Crusher": {
+    "slug": "Dumbbell_Lying_Triceps_Extension",
+    "primary": [
+      "Triceps"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/watch?v=ZUZOn9c1VVI"
+  },
+  "Dumbbell Lateral Raise": {
+    "slug": "Side_Lateral_Raise",
+    "primary": [
+      "Side Delts"
+    ],
+    "secondary": [
+      "Traps"
+    ],
+    "video": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs"
+  },
+  "Ab Wheel Rollout": {
+    "slug": "Ab_Roller",
+    "primary": [
+      "Core (Abs)"
+    ],
+    "secondary": [
+      "Lats",
+      "Shoulders"
+    ]
+  },
+  "Close-Grip Bench Press": {
+    "slug": "Close-Grip_Barbell_Bench_Press",
+    "primary": [
+      "Triceps",
+      "Chest"
+    ],
+    "secondary": [
+      "Front Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/vO0JXQHa4sg"
+  },
+  "Military Press": {
+    "slug": "Standing_Military_Press",
+    "primary": [
+      "Front Delts",
+      "Side Delts"
+    ],
+    "secondary": [
+      "Triceps",
+      "Upper Chest",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/shorts/4LBVP2Oe7fg"
+  },
+  "Dumbbell Incline Press": {
+    "slug": "Dumbbell_Incline_Bench_Press",
+    "primary": [
+      "Upper Chest"
+    ],
+    "secondary": [
+      "Front Delts",
+      "Triceps"
+    ],
+    "video": "https://www.youtube.com/shorts/8fXfwG4ftaQ"
+  },
+  "Pec Deck": {
+    "slug": "Butterfly",
+    "primary": [
+      "Chest"
+    ],
+    "secondary": [
+      "Front Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/CRroep849bU"
+  },
+  "Cable Lateral Raise": {
+    "slug": "Side_Lateral_Raise",
+    "primary": [
+      "Side Delts"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs"
+  },
+  "Cable Triceps Kickback": {
+    "slug": "Tricep_Dumbbell_Kickback",
+    "primary": [
+      "Triceps"
+    ],
+    "secondary": []
+  },
+  "Bicycle Crunch": {
+    "slug": "Air_Bike",
+    "primary": [
+      "Core (Abs)",
+      "Obliques"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/watch?v=NGRKFMKhF8s"
+  },
+  "Pull-up": {
+    "slug": "Pullups",
+    "primary": [
+      "Lats",
+      "Upper Back"
+    ],
+    "secondary": [
+      "Biceps",
+      "Forearms"
+    ],
+    "video": "https://www.youtube.com/shorts/ZPG8OsHKXLw"
+  },
+  "Pendlay Row": {
+    "slug": "Bent_Over_Barbell_Row",
+    "primary": [
+      "Upper Back",
+      "Lats"
+    ],
+    "secondary": [
+      "Rear Delts",
+      "Biceps"
+    ],
+    "video": "https://www.youtube.com/shorts/0PSfteHhUtg"
+  },
+  "Machine High Row": {
+    "slug": "Hammer_Grip_Pulldowns",
+    "primary": [
+      "Lats",
+      "Upper Back"
+    ],
+    "secondary": [
+      "Biceps"
+    ],
+    "video": "https://www.youtube.com/shorts/bNmvKpJSWKM"
+  },
+  "Seated Face Pull": {
+    "slug": "Face_Pull",
+    "primary": [
+      "Rear Delts",
+      "Upper Back"
+    ],
+    "secondary": [
+      "Traps"
+    ],
+    "video": "https://www.youtube.com/shorts/sQh0EBVVmaI"
+  },
+  "1 Arm Lat Pull-in": {
+    "slug": "Straight-Arm_Pulldown",
+    "primary": [
+      "Lats"
+    ],
+    "secondary": []
+  },
+  "Dumbbell Preacher Curl": {
+    "slug": "Dumbbell_Bicep_Curl",
+    "primary": [
+      "Biceps"
+    ],
+    "secondary": [
+      "Forearms"
+    ]
+  },
+  "Reverse Grip EZ Bar Curl": {
+    "slug": "Reverse_Barbell_Curl",
+    "primary": [
+      "Brachialis",
+      "Forearms"
+    ],
+    "secondary": [
+      "Biceps"
+    ]
+  },
+  "Supinated EZ Bar Curl": {
+    "slug": "EZ-Bar_Curl",
+    "primary": [
+      "Biceps"
+    ],
+    "secondary": [
+      "Forearms"
+    ],
+    "video": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo"
+  },
+  "Neutral-Grip Pulldown": {
+    "slug": "Hammer_Grip_Pulldowns",
+    "primary": [
+      "Lats"
+    ],
+    "secondary": [
+      "Biceps",
+      "Upper Back"
+    ],
+    "video": "https://www.youtube.com/shorts/bNmvKpJSWKM"
+  },
+  "Cable Seated Elbows Out Row": {
+    "slug": "Seated_Cable_Rows",
+    "primary": [
+      "Upper Back",
+      "Rear Delts"
+    ],
+    "secondary": [
+      "Lats"
+    ],
+    "video": "https://www.youtube.com/shorts/8QuMq1GMMng"
+  },
+  "Cable Seated Row": {
+    "slug": "Seated_Cable_Rows",
+    "primary": [
+      "Lats",
+      "Upper Back"
+    ],
+    "secondary": [
+      "Biceps",
+      "Rear Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/8QuMq1GMMng"
+  },
+  "Kneeling Straight-Arm Cable Pull-Over": {
+    "slug": "Straight-Arm_Pulldown",
+    "primary": [
+      "Lats"
+    ],
+    "secondary": [
+      "Triceps (Long Head)"
+    ]
+  },
+  "Snatch Grip Barbell Shrug": {
+    "slug": "Barbell_Shrug",
+    "primary": [
+      "Traps"
+    ],
+    "secondary": [
+      "Upper Back",
+      "Forearms"
+    ],
+    "video": "https://youtu.be/9B-5irFdB3c?t=6m28s"
+  },
+  "Cable Reverse Flye": {
+    "slug": "Standing_Cable_Reverse_Fly",
+    "primary": [
+      "Rear Delts"
+    ],
+    "secondary": [
+      "Upper Back"
+    ],
+    "video": "https://www.youtube.com/watch?v=QnXb1dh_RjQ"
+  },
+  "Single-Arm Cable Curl": {
+    "slug": "Cable_Hammer_Curls_-_Rope_Attachment",
+    "primary": [
+      "Biceps"
+    ],
+    "secondary": [
+      "Forearms"
+    ]
+  },
+  "Hammer Curl": {
+    "slug": "Hammer_Curls",
+    "primary": [
+      "Brachialis",
+      "Biceps"
+    ],
+    "secondary": [
+      "Forearms"
+    ]
+  },
+  "Tempo Back Squat": {
+    "slug": "Barbell_Squat",
+    "primary": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondary": [
+      "Hamstrings",
+      "Lower Back",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/shorts/iZTxa8NJH2g"
+  },
+  "Round-Back Dumbbell 45° Hyperextension": {
+    "slug": "Hyperextensions_-_With_No_Hyperextension_Bench",
+    "primary": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "secondary": [
+      "Lower Back"
+    ]
+  },
+  "Smith Machine Reverse Lunge": {
+    "slug": "Smith_Machine_Squat",
+    "primary": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondary": [
+      "Hamstrings",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/shorts/Rkkc-FnURyc"
+  },
+  "Enhanced-Eccentric Leg Extension": {
+    "slug": "Leg_Extensions",
+    "primary": [
+      "Quadriceps"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/iQ92TuvBqRo"
+  },
+  "Enhanced-Eccentric Lying Leg Curl": {
+    "slug": "Lying_Leg_Curls",
+    "primary": [
+      "Hamstrings"
+    ],
+    "secondary": [
+      "Calves"
+    ],
+    "video": "https://www.youtube.com/watch?v=1Tq3QdYUuHs"
+  },
+  "Lateral Band Walk": {
+    "slug": "Hip_Lift_with_Band",
+    "primary": [
+      "Glute Medius"
+    ],
+    "secondary": [
+      "Hip Abductors"
+    ],
+    "video": "https://www.youtube.com/watch?v=-seSnS4N8Xo"
+  },
+  "Tempo Standing Calf Raise": {
+    "slug": "Standing_Calf_Raises",
+    "primary": [
+      "Calves"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/B30JglFGx8Y"
+  },
+  "Arnold Press": {
+    "slug": "Arnold_Dumbbell_Press",
+    "primary": [
+      "Front Delts",
+      "Side Delts"
+    ],
+    "secondary": [
+      "Triceps",
+      "Upper Chest"
+    ],
+    "video": "https://www.youtube.com/shorts/2Dj5qZT7qIo"
+  },
+  "Close-Grip Smith Machine Press": {
+    "slug": "Close-Grip_Barbell_Bench_Press",
+    "primary": [
+      "Triceps",
+      "Chest"
+    ],
+    "secondary": [
+      "Front Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/vO0JXQHa4sg"
+  },
+  "Barbell Floor Skull Crusher": {
+    "slug": "Lying_Triceps_Press",
+    "primary": [
+      "Triceps"
+    ],
+    "secondary": []
+  },
+  "Egyptian Lateral Raise": {
+    "slug": "Side_Lateral_Raise",
+    "primary": [
+      "Side Delts"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs"
+  },
+  "Rope Overhead Triceps Extension": {
+    "slug": "Cable_Rope_Overhead_Triceps_Extension",
+    "primary": [
+      "Triceps (Long Head)"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/watch?v=FxK2mF0iPXs"
+  },
+  "Hanging Leg Raise": {
+    "slug": "Hanging_Leg_Raise",
+    "primary": [
+      "Core (Abs)",
+      "Hip Flexors"
+    ],
+    "secondary": [
+      "Forearms (Grip)"
+    ]
+  },
+  "Dumbbell One-Arm Row": {
+    "slug": "One-Arm_Dumbbell_Row",
+    "primary": [
+      "Lats",
+      "Upper Back"
+    ],
+    "secondary": [
+      "Biceps",
+      "Rear Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/jpZFcJ8tBj0"
+  },
+  "Chest-Supported T-Bar Row w/ Band": {
+    "slug": "T-Bar_Row_with_Handle",
+    "primary": [
+      "Upper Back",
+      "Lats"
+    ],
+    "secondary": [
+      "Rear Delts",
+      "Biceps"
+    ],
+    "video": "https://www.youtube.com/watch?v=w0KnlQ-b7jw"
+  },
+  "Low-to-High Reverse Flye": {
+    "slug": "Standing_Cable_Reverse_Fly",
+    "primary": [
+      "Rear Delts",
+      "Traps"
+    ],
+    "secondary": [
+      "Upper Back"
+    ],
+    "video": "https://www.youtube.com/watch?v=QnXb1dh_RjQ"
+  },
+  "Rope Upright Row": {
+    "slug": "Upright_Cable_Row",
+    "primary": [
+      "Traps",
+      "Side Delts"
+    ],
+    "secondary": [
+      "Biceps"
+    ],
+    "video": "https://youtu.be/KyTAraGimfE?t=6m35s"
+  },
+  "Dumbbell Supinated Curl": {
+    "slug": "Dumbbell_Bicep_Curl",
+    "primary": [
+      "Biceps"
+    ],
+    "secondary": [
+      "Forearms"
+    ],
+    "video": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo"
+  },
+  "Spider Curl": {
+    "slug": "Spider_Curl",
+    "primary": [
+      "Biceps"
+    ],
+    "secondary": [
+      "Forearms"
+    ],
+    "video": "https://youtu.be/ebyOmAZUqzo?t=11m38s"
+  },
+  "Romanian Deadlift": {
+    "slug": "Romanian_Deadlift",
+    "primary": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "secondary": [
+      "Lower Back",
+      "Forearms"
+    ],
+    "video": "https://www.youtube.com/shorts/ecuZtKTNI9U"
+  },
+  "Pause Barbell Hip Thrust": {
+    "slug": "Barbell_Hip_Thrust",
+    "primary": [
+      "Glutes"
+    ],
+    "secondary": [
+      "Hamstrings",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/watch?v=WvRJiXWiZXc"
+  },
+  "Slow Eccentric Goblet Squat": {
+    "slug": "Goblet_Squat",
+    "primary": [
+      "Quadriceps"
+    ],
+    "secondary": [
+      "Glutes",
+      "Core"
+    ]
+  },
+  "Cable Rope Pullthrough": {
+    "slug": "Pelvic_Tilt_Into_Bridge",
+    "primary": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "secondary": [
+      "Lower Back"
+    ],
+    "video": "https://youtu.be/0MGx97YdFg0?t=11m35s"
+  },
+  "Military Press / Push Press Complex": {
+    "slug": "Standing_Military_Press",
+    "primary": [
+      "Front Delts",
+      "Side Delts"
+    ],
+    "secondary": [
+      "Triceps",
+      "Quadriceps",
+      "Core"
+    ],
+    "video": "https://www.youtube.com/shorts/4LBVP2Oe7fg"
+  },
+  "Slow Eccentric Dip": {
+    "slug": "Dips_-_Triceps_Version",
+    "primary": [
+      "Chest",
+      "Triceps"
+    ],
+    "secondary": [
+      "Front Delts"
+    ],
+    "video": "https://www.youtube.com/shorts/fA1ly8FeufE"
+  },
+  "Triceps V-Bar Pressdown": {
+    "slug": "Triceps_Pushdown",
+    "primary": [
+      "Triceps"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/leazgWMaSo8"
+  },
+  "Machine Lateral Raise": {
+    "slug": "Side_Lateral_Raise",
+    "primary": [
+      "Side Delts"
+    ],
+    "secondary": [],
+    "video": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs"
+  },
+  "Plank": {
+    "slug": "Plank",
+    "primary": [
+      "Core (Abs)"
+    ],
+    "secondary": [
+      "Shoulders",
+      "Glutes"
+    ],
+    "video": "https://www.youtube.com/watch?v=kL_NJAkCQBg"
+  },
+  "Single-Arm Pulldown": {
+    "slug": "Wide-Grip_Lat_Pulldown",
+    "primary": [
+      "Lats"
+    ],
+    "secondary": [
+      "Biceps"
+    ],
+    "video": "https://www.youtube.com/shorts/bNmvKpJSWKM"
+  },
+  "Seal Row": {
+    "slug": "Bent_Over_Barbell_Row",
+    "primary": [
+      "Upper Back",
+      "Lats"
+    ],
+    "secondary": [
+      "Rear Delts",
+      "Biceps"
+    ],
+    "video": "https://www.youtube.com/shorts/0PSfteHhUtg"
+  },
+  "Reverse Pec Deck": {
+    "slug": "Reverse_Flyes",
+    "primary": [
+      "Rear Delts"
+    ],
+    "secondary": [
+      "Upper Back"
+    ],
+    "video": "https://www.youtube.com/watch?v=QnXb1dh_RjQ"
+  },
+  "Dumbbell Pronated Curl": {
+    "slug": "Reverse_Barbell_Curl",
+    "primary": [
+      "Brachialis",
+      "Forearms"
+    ],
+    "secondary": [
+      "Biceps"
+    ]
+  },
+  "Dumbbell Hammer Curl": {
+    "slug": "Hammer_Curls",
+    "primary": [
+      "Brachialis",
+      "Biceps"
+    ],
+    "secondary": [
+      "Forearms"
+    ]
+  }
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0A0A0A" />
+  <title>PPL Tracker — Jeff Nippard</title>
+  <link rel="icon" href="placeholder.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <div class="topbar-row brand-row">
+      <h1 class="brand"><span class="brand-mark">PPL</span> Tracker</h1>
+      <button class="settings-btn" id="settings-btn" aria-label="Settings">⚙</button>
+    </div>
+
+    <div class="chip-strip" data-group="block" role="tablist" aria-label="Block">
+      <!-- chips injected -->
+    </div>
+    <div class="chip-strip" data-group="week" role="tablist" aria-label="Week">
+      <!-- chips injected -->
+    </div>
+    <div class="chip-strip" data-group="day" role="tablist" aria-label="Day">
+      <!-- chips injected -->
+    </div>
+
+  </header>
+
+  <main class="main">
+    <!-- Day hero — magazine-cover moment for the day -->
+    <section class="day-hero" id="day-hero" aria-labelledby="hero-title">
+      <div class="day-hero-stripes" aria-hidden="true"></div>
+      <div class="day-hero-eyebrow" id="hero-eyebrow">Block 1 · Week 1</div>
+      <div class="day-hero-main">
+        <div class="day-hero-number" id="hero-number">D1</div>
+        <div class="day-hero-titles">
+          <h2 class="day-hero-title" id="hero-title">Legs #1</h2>
+          <div class="day-hero-deload" id="hero-deload" hidden>Deload Week</div>
+        </div>
+      </div>
+      <div class="day-hero-stats" id="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-val" id="hero-stat-tsv">—</span>
+          <span class="hero-stat-lab">TSV</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-val" id="hero-stat-progress">0/0</span>
+          <span class="hero-stat-lab">Sets done</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-val" id="hero-stat-ex">—</span>
+          <span class="hero-stat-lab">Exercises</span>
+        </div>
+      </div>
+      <div class="day-hero-progress" aria-hidden="true">
+        <div class="day-hero-progress-bar" id="hero-progress-bar"></div>
+      </div>
+    </section>
+
+    <div id="exercise-list">
+      <!-- exercise cards injected -->
+    </div>
+  </main>
+
+  <!-- Day complete celebration -->
+  <div class="day-complete" id="day-complete" hidden>
+    <div class="day-complete-sweep"></div>
+    <div class="day-complete-stack">
+      <div class="day-complete-eyebrow">Workout</div>
+      <div class="day-complete-title">COMPLETE</div>
+      <div class="day-complete-sub">Every set logged. Good work.</div>
+    </div>
+  </div>
+
+  <!-- Sticky bottom nav: prev / day status / next -->
+  <nav class="bottom-nav" aria-label="Day navigation">
+    <div class="bottom-nav-inner">
+      <button class="nav-arrow" id="nav-prev" aria-label="Previous day">‹</button>
+      <button class="nav-status" id="nav-status" aria-label="Open day overview" type="button">
+        <span class="nav-status-line-1" id="nav-status-line-1">Day —</span>
+        <span class="nav-status-line-2" id="nav-status-line-2"><span class="progress-text">0/0</span> sets logged</span>
+      </button>
+      <button class="nav-arrow" id="nav-next" aria-label="Next day">›</button>
+    </div>
+  </nav>
+
+  <!-- Swap modal -->
+  <div class="modal-backdrop" id="swap-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="swap-title">
+      <div class="modal-head">
+        <div class="modal-title" id="swap-title">Swap exercise</div>
+        <button class="icon-btn" id="swap-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body" id="swap-body"></div>
+    </div>
+  </div>
+
+  <!-- Exercise editor modal (used for both Add and Edit) -->
+  <div class="modal-backdrop" id="edit-modal" hidden>
+    <div class="modal edit-modal" role="dialog" aria-modal="true" aria-labelledby="edit-title">
+      <div class="modal-head">
+        <div class="modal-title" id="edit-title">Edit exercise</div>
+        <button class="icon-btn" id="edit-close" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="edit-form" class="edit-form" novalidate>
+          <label class="edit-field">
+            <span class="edit-label">Name <em>·required</em></span>
+            <input name="name" type="text" required maxlength="80" autocomplete="off" />
+          </label>
+
+          <div class="edit-row">
+            <label class="edit-field" style="flex:1">
+              <span class="edit-label">Sets</span>
+              <input name="sets" type="number" min="1" max="10" step="1" required />
+            </label>
+            <label class="edit-field" style="flex:1.4">
+              <span class="edit-label">Reps</span>
+              <input name="reps" type="text" required maxlength="20" placeholder="8-10" />
+            </label>
+          </div>
+
+          <div class="edit-row">
+            <div class="edit-field" style="flex:1">
+              <span class="edit-label">Intensity</span>
+              <div class="seg" data-edit-load>
+                <button type="button" data-value="rpe">RPE</button>
+                <button type="button" data-value="percent1RM">%1RM</button>
+              </div>
+            </div>
+            <label class="edit-field" style="flex:1">
+              <span class="edit-label" id="edit-load-label">Value</span>
+              <input name="loadValue" type="number" step="0.5" min="1" required />
+            </label>
+          </div>
+
+          <div class="edit-row">
+            <label class="edit-field" style="flex:1.4">
+              <span class="edit-label">Rest</span>
+              <input name="rest" type="text" required maxlength="20" placeholder="2-3min" />
+            </label>
+            <label class="edit-field" style="flex:1">
+              <span class="edit-label">Superset</span>
+              <input name="supersetGroup" type="text" maxlength="2" placeholder="A" />
+            </label>
+          </div>
+
+          <label class="edit-field">
+            <span class="edit-label">Coach notes</span>
+            <textarea name="notes" rows="3" maxlength="400"></textarea>
+          </label>
+
+          <label class="edit-field">
+            <span class="edit-label">Primary muscles <em>comma-separated</em></span>
+            <input name="primary" type="text" placeholder="Chest, Triceps" maxlength="120" />
+          </label>
+
+          <label class="edit-field">
+            <span class="edit-label">Secondary muscles</span>
+            <input name="secondary" type="text" placeholder="Shoulders, Core" maxlength="120" />
+          </label>
+
+          <label class="edit-field">
+            <span class="edit-label">Image slug <em>free-exercise-db ID</em></span>
+            <input name="slug" type="text" placeholder="Barbell_Squat" maxlength="80" autocomplete="off" />
+          </label>
+
+          <label class="edit-field">
+            <span class="edit-label">Video URL <em>YouTube</em></span>
+            <input name="video" type="url" placeholder="https://www.youtube.com/shorts/..." maxlength="300" autocomplete="off" />
+          </label>
+
+          <div class="edit-error" id="edit-error" hidden></div>
+        </form>
+
+        <div class="edit-actions">
+          <button class="btn-ghost" id="edit-reset" type="button" hidden>Reset to default</button>
+          <button class="btn-danger" id="edit-delete" type="button" hidden>Delete</button>
+          <button class="btn-primary" id="edit-save" type="button">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Demo / form animation modal -->
+  <div class="modal-backdrop" id="demo-modal" hidden>
+    <div class="modal demo-modal" role="dialog" aria-modal="true" aria-labelledby="demo-title">
+      <div class="modal-head">
+        <div class="modal-title" id="demo-title">Form demo</div>
+        <button class="icon-btn" id="demo-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body" id="demo-body"></div>
+    </div>
+  </div>
+
+  <!-- Settings modal -->
+  <div class="modal-backdrop" id="settings-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+      <div class="modal-head">
+        <div class="modal-title" id="settings-title">Settings</div>
+        <button class="icon-btn" id="settings-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <label class="setting-row">
+          <span>Sets per exercise</span>
+          <div class="seg" data-setting="setsPerExercise">
+            <button data-value="pdf">PDF</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+          </div>
+        </label>
+        <label class="setting-row">
+          <span>Units</span>
+          <div class="seg" data-setting="units">
+            <button data-value="kg">kg</button>
+            <button data-value="lb">lb</button>
+          </div>
+        </label>
+        <label class="setting-row">
+          <span>Exercise images</span>
+          <div class="seg" data-setting="images">
+            <button data-value="on">on</button>
+            <button data-value="off">off</button>
+          </div>
+        </label>
+        <div class="setting-row danger">
+          <span>Reset all data</span>
+          <button class="btn-danger" id="reset-data">Wipe</button>
+        </div>
+        <p class="hint">
+          Logged sets, 1RMs, swaps, and unit preference are stored in your
+          browser's localStorage. Exercise images are fetched from
+          <a href="https://github.com/yuhonas/free-exercise-db" target="_blank" rel="noopener">free-exercise-db</a>
+          (an open, properly-licensed exercise media set) — never from
+          MuscleWiki.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rest timer overlay -->
+  <div class="rest-overlay" id="rest-overlay" hidden>
+    <div class="rest-card">
+      <div class="rest-label" id="rest-label">Rest</div>
+      <div class="rest-time" id="rest-time">0:00</div>
+      <div class="rest-actions">
+        <button class="btn-secondary" id="rest-skip">Skip</button>
+        <button class="btn-secondary" id="rest-add">+30s</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
