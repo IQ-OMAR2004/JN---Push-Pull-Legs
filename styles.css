@@ -1222,6 +1222,64 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; letter-spac
 }
 
 /* ============================================================
+ * Technique panel (inside demo modal)
+ * ============================================================ */
+.technique-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.tech-section {
+  background:
+    linear-gradient(180deg, rgba(225, 6, 0, 0.04), transparent 70%),
+    var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--red);
+  border-radius: var(--r-md);
+  padding: var(--space-3);
+}
+.tech-section-head {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  color: var(--red);
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: var(--space-2);
+}
+.tech-section.tech-mistakes { border-left-color: #FF1A14; }
+.tech-section.tech-mistakes .tech-section-head { color: #FF6E66; }
+.tech-section.tech-tips { border-left-color: var(--text-70); }
+.tech-section.tech-tips .tech-section-head { color: var(--text-70); }
+.tech-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.tech-list li {
+  position: relative;
+  padding-left: 14px;
+  font-size: var(--text-sm);
+  color: var(--text-90);
+  line-height: 1.5;
+}
+.tech-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  background: var(--red);
+  border-radius: 50%;
+}
+.tech-section.tech-mistakes .tech-list li::before { background: #FF6E66; }
+.tech-section.tech-tips .tech-list li::before { background: var(--text-70); }
+
+/* ============================================================
  * Exercise editor (Add / Edit modal)
  * ============================================================ */
 .edit-modal { max-width: 600px; }
@@ -1313,6 +1371,45 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; letter-spac
   font-weight: var(--w-medium);
   margin-top: var(--space-2);
 }
+.edit-technique {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 0;
+}
+.edit-technique > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: var(--space-3);
+  font-family: var(--font-text);
+  font-size: var(--text-sm);
+  font-weight: var(--w-bold);
+  color: var(--text-90);
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-height: var(--touch-min);
+}
+.edit-technique > summary em {
+  font-style: normal;
+  color: var(--text-40);
+  font-size: var(--text-xs);
+  font-weight: var(--w-medium);
+  margin-left: auto;
+}
+.edit-technique > summary::before {
+  content: "▸";
+  display: inline-block;
+  color: var(--red);
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.edit-technique[open] > summary::before { transform: rotate(90deg); }
+.edit-technique > summary::-webkit-details-marker { display: none; }
+.edit-technique > .edit-field {
+  margin: 0 var(--space-3) var(--space-3);
+}
+
 .edit-actions {
   display: flex;
   gap: var(--space-2);

@@ -174,6 +174,26 @@
             <input name="video" type="url" placeholder="https://www.youtube.com/shorts/..." maxlength="300" autocomplete="off" />
           </label>
 
+          <details class="edit-technique">
+            <summary>Technique tips <em>one bullet per line</em></summary>
+            <label class="edit-field">
+              <span class="edit-label">Setup</span>
+              <textarea name="techSetup" rows="3" maxlength="600" placeholder="Stance + bar/grip cues, one per line"></textarea>
+            </label>
+            <label class="edit-field">
+              <span class="edit-label">Execution</span>
+              <textarea name="techExecution" rows="3" maxlength="600" placeholder="How to perform the rep, one per line"></textarea>
+            </label>
+            <label class="edit-field">
+              <span class="edit-label">Common mistakes</span>
+              <textarea name="techMistakes" rows="2" maxlength="400" placeholder="Things to avoid, one per line"></textarea>
+            </label>
+            <label class="edit-field">
+              <span class="edit-label">Pro tips</span>
+              <textarea name="techTips" rows="2" maxlength="400" placeholder="Optional refinements, one per line"></textarea>
+            </label>
+          </details>
+
           <div class="edit-error" id="edit-error" hidden></div>
         </form>
 

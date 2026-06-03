@@ -10,7 +10,24 @@
       "Lower Back",
       "Core"
     ],
-    "video": "https://www.youtube.com/shorts/iZTxa8NJH2g"
+    "video": "https://www.youtube.com/shorts/iZTxa8NJH2g",
+    "technique": {
+      "setup": [
+        "Bar on upper traps (high-bar) or rear delts (low-bar)",
+        "Feet shoulder-width, toes 10–20° out, screw heels in"
+      ],
+      "execution": [
+        "Brace — big breath into belly, lock core",
+        "Break hips and knees together; descend to at least parallel, drive mid-foot up"
+      ],
+      "mistakes": [
+        "Knees caving inward — shove knees out over toes",
+        "Heels lifting or chest collapsing forward"
+      ],
+      "tips": [
+        "Heels-elevated stance helps depth for taller lifters or quad emphasis"
+      ]
+    }
   },
   "Deadlift": {
     "slug": "Barbell_Deadlift",
@@ -25,7 +42,24 @@
       "Forearms",
       "Quadriceps"
     ],
-    "video": "https://www.youtube.com/shorts/ZaTM37cfiDs"
+    "video": "https://www.youtube.com/shorts/ZaTM37cfiDs",
+    "technique": {
+      "setup": [
+        "Bar over mid-foot, shins ~1 inch from bar",
+        "Hinge to grip — chest tall, lats tucked, slight knee bend"
+      ],
+      "execution": [
+        "Pull slack out of bar, then push the floor away with legs",
+        "Lock hips at top, don't hyperextend; control the descent"
+      ],
+      "mistakes": [
+        "Bar drifting forward — keep bar against shins",
+        "Lower back rounding under load"
+      ],
+      "tips": [
+        "Mixed grip or straps above ~80% 1RM; chalk for grip"
+      ]
+    }
   },
   "Barbell Hip Thrust": {
     "slug": "Barbell_Hip_Thrust",
@@ -36,7 +70,24 @@
       "Hamstrings",
       "Core"
     ],
-    "video": "https://www.youtube.com/watch?v=WvRJiXWiZXc"
+    "video": "https://www.youtube.com/watch?v=WvRJiXWiZXc",
+    "technique": {
+      "setup": [
+        "Upper back on bench, bar over hip crease with pad",
+        "Feet planted shin-vertical at top, knees ~90°"
+      ],
+      "execution": [
+        "Tuck chin and ribs down; only the hips move",
+        "Drive through heels, lock glutes at top — pause briefly"
+      ],
+      "mistakes": [
+        "Lower back arching (cue: posterior pelvic tilt at top)",
+        "Heels lifting or feet too far forward (becomes a back lift)"
+      ],
+      "tips": [
+        "Single-leg variant balances side-to-side strength"
+      ]
+    }
   },
   "Dumbbell Walking Lunge": {
     "slug": "Dumbbell_Lunges",
@@ -49,7 +100,24 @@
       "Calves",
       "Core"
     ],
-    "video": "https://www.youtube.com/shorts/Rkkc-FnURyc"
+    "video": "https://www.youtube.com/shorts/Rkkc-FnURyc",
+    "technique": {
+      "setup": [
+        "Dumbbells at sides, neutral grip; chest up, core braced",
+        "Step length: knee tracks over middle of front foot"
+      ],
+      "execution": [
+        "Step forward into a stride, knee just shy of the floor",
+        "Drive through front heel to next step — minimize push-off from rear leg"
+      ],
+      "mistakes": [
+        "Knee tracking inside the foot",
+        "Stepping too short (becomes a quad burn instead of glute stretch)"
+      ],
+      "tips": [
+        "Slower descent (~2s) emphasizes the loaded stretch for glute growth"
+      ]
+    }
   },
   "Leg Extension": {
     "slug": "Leg_Extensions",
@@ -57,7 +125,24 @@
       "Quadriceps"
     ],
     "secondary": [],
-    "video": "https://www.youtube.com/shorts/iQ92TuvBqRo"
+    "video": "https://www.youtube.com/shorts/iQ92TuvBqRo",
+    "technique": {
+      "setup": [
+        "Knees aligned with the machine's pivot axis",
+        "Back flat against pad, hands relaxed on handles"
+      ],
+      "execution": [
+        "Extend slowly; squeeze quads hard at lockout",
+        "Controlled negative (~2-3s); don't let weight crash down"
+      ],
+      "mistakes": [
+        "Slamming into lockout (joint stress) or partial reps",
+        "Lifting hips off pad to cheat the weight up"
+      ],
+      "tips": [
+        "Toes-out emphasizes vastus medialis (teardrop); pointed straight is balanced"
+      ]
+    }
   },
   "Seated Leg Curl": {
     "slug": "Seated_Leg_Curl",
@@ -67,7 +152,24 @@
     "secondary": [
       "Calves"
     ],
-    "video": "https://www.youtube.com/watch?v=1Tq3QdYUuHs"
+    "video": "https://www.youtube.com/watch?v=1Tq3QdYUuHs",
+    "technique": {
+      "setup": [
+        "Knee axis aligned with machine pivot",
+        "Thigh pad locked snug; back against pad"
+      ],
+      "execution": [
+        "Curl heels under glutes; squeeze hamstrings at bottom",
+        "Slow eccentric (~2s); don't let stack hit"
+      ],
+      "mistakes": [
+        "Letting hips lift off pad",
+        "Bouncing the weight to start the rep"
+      ],
+      "tips": [
+        "Pointing toes back (dorsiflexion) reduces calf involvement, isolates hams more"
+      ]
+    }
   },
   "Standing Calf Raise": {
     "slug": "Standing_Calf_Raises",
@@ -75,7 +177,24 @@
       "Calves"
     ],
     "secondary": [],
-    "video": "https://www.youtube.com/shorts/B30JglFGx8Y"
+    "video": "https://www.youtube.com/shorts/B30JglFGx8Y",
+    "technique": {
+      "setup": [
+        "Ball of foot on edge of platform, knees fully extended",
+        "Toes pointed straight forward"
+      ],
+      "execution": [
+        "Press up through big toe — full plantarflexion",
+        "Slow drop into deep stretch (~3s); pause briefly at bottom"
+      ],
+      "mistakes": [
+        "Bouncing out of the stretch (steals tendon energy)",
+        "Cutting the range — only mid-range counts least"
+      ],
+      "tips": [
+        "Stretched-position emphasis (lower) drives more calf growth than top-only reps"
+      ]
+    }
   },
   "Front Squat": {
     "slug": "Front_Barbell_Squat",
@@ -87,7 +206,24 @@
       "Core",
       "Upper Back"
     ],
-    "video": "https://www.youtube.com/shorts/r6Z_h_WAX5o"
+    "video": "https://www.youtube.com/shorts/r6Z_h_WAX5o",
+    "technique": {
+      "setup": [
+        "Bar across front delts, elbows high",
+        "Either clean grip or crossed-arm grip"
+      ],
+      "execution": [
+        "Stay upright — torso vertical throughout",
+        "Drive elbows up out of the hole"
+      ],
+      "mistakes": [
+        "Elbows dropping (cue: \"elbows to ceiling\")",
+        "Caving forward = quad burn lost, low-back strained"
+      ],
+      "tips": [
+        "More quad-dominant than back squat; pairs well with low-bar work"
+      ]
+    }
   },
   "Cable Pull Through": {
     "slug": "Pelvic_Tilt_Into_Bridge",
@@ -98,7 +234,24 @@
     "secondary": [
       "Lower Back"
     ],
-    "video": "https://youtu.be/0MGx97YdFg0?t=11m35s"
+    "video": "https://youtu.be/0MGx97YdFg0?t=11m35s",
+    "technique": {
+      "setup": [
+        "Rope between legs, face away from cable",
+        "Stagger or hip-width stance, slight knee bend"
+      ],
+      "execution": [
+        "Hinge at hips — push butt back, rope traces inner thighs",
+        "Squeeze glutes hard at top to stand up"
+      ],
+      "mistakes": [
+        "Squatting the rep — turn it into a hinge",
+        "Hyperextending at top (back, not glutes, finishes)"
+      ],
+      "tips": [
+        "Anterior tilt eccentric, posterior tilt concentric — sequence the pelvis"
+      ]
+    }
   },
   "Single-Leg Leg Press": {
     "slug": "Sled_Leg_Press",
@@ -109,7 +262,24 @@
     "secondary": [
       "Hamstrings"
     ],
-    "video": "https://www.youtube.com/shorts/nDh_BlnLCGc"
+    "video": "https://www.youtube.com/shorts/nDh_BlnLCGc",
+    "technique": {
+      "setup": [
+        "Foot high on platform; opposite foot off plate",
+        "Hips and back firm against pad"
+      ],
+      "execution": [
+        "Lower until knee approaches chest (deep ROM)",
+        "Press through heel — slow eccentric (~2s)"
+      ],
+      "mistakes": [
+        "Knee caving inward under load",
+        "Lifting hips off seat (lower-back rounding)"
+      ],
+      "tips": [
+        "Higher foot = more hip/glute; lower foot = more quad"
+      ]
+    }
   },
   "Single-Leg Leg Extension": {
     "slug": "Single_Leg_Leg_Extension",
@@ -139,7 +309,24 @@
       "Triceps",
       "Front Delts"
     ],
-    "video": "https://www.youtube.com/shorts/0cXAp6WhSj4"
+    "video": "https://www.youtube.com/shorts/0cXAp6WhSj4",
+    "technique": {
+      "setup": [
+        "Eyes under bar; shoulder blades retracted + depressed, slight arch",
+        "Grip ~1.5× shoulder width, feet planted, light leg drive"
+      ],
+      "execution": [
+        "Lower under control to lower chest, elbows ~45°",
+        "Press up and slightly back, lockout over shoulders"
+      ],
+      "mistakes": [
+        "Elbows flaring to 90° (shoulder strain)",
+        "Bouncing the bar off chest or losing scapular set"
+      ],
+      "tips": [
+        "1s pause on chest builds bottom-end strength and protects shoulders"
+      ]
+    }
   },
   "Dumbbell Seated Shoulder Press": {
     "slug": "Dumbbell_Shoulder_Press",
@@ -151,7 +338,24 @@
       "Triceps",
       "Upper Chest"
     ],
-    "video": "https://www.youtube.com/shorts/4LBVP2Oe7fg"
+    "video": "https://www.youtube.com/shorts/4LBVP2Oe7fg",
+    "technique": {
+      "setup": [
+        "Back firmly against pad; bench upright",
+        "Dumbbells at shoulder height, palms forward, elbows ~45°"
+      ],
+      "execution": [
+        "Press up overhead — bells nearly touch at top",
+        "Lower with control to ear level (deep stretch)"
+      ],
+      "mistakes": [
+        "Stopping short (top half only)",
+        "Arching the lower back to cheat the press"
+      ],
+      "tips": [
+        "Bench at ~75° (slight incline) is friendlier on shoulders than fully vertical"
+      ]
+    }
   },
   "Weighted Dip": {
     "slug": "Dips_-_Triceps_Version",
@@ -162,7 +366,24 @@
     "secondary": [
       "Front Delts"
     ],
-    "video": "https://www.youtube.com/shorts/fA1ly8FeufE"
+    "video": "https://www.youtube.com/shorts/fA1ly8FeufE",
+    "technique": {
+      "setup": [
+        "Bars about shoulder-width; lean torso forward 15–20° (chest emphasis)",
+        "Scapulae retracted and depressed throughout"
+      ],
+      "execution": [
+        "Lower until shoulders just below elbows or chest deep stretch",
+        "Drive up — keep lean, don't pop upright"
+      ],
+      "mistakes": [
+        "Going too deep with shoulders rolling forward (anterior strain)",
+        "Vertical torso turns it into a triceps-only movement (fine if intended)"
+      ],
+      "tips": [
+        "Use a dip belt; band-assisted dips for sub-bodyweight progression"
+      ]
+    }
   },
   "Low-to-High Cable Flye": {
     "slug": "Cable_Crossover",
@@ -172,7 +393,24 @@
     "secondary": [
       "Front Delts"
     ],
-    "video": "https://www.youtube.com/shorts/yrpiK8R4Vqo"
+    "video": "https://www.youtube.com/shorts/yrpiK8R4Vqo",
+    "technique": {
+      "setup": [
+        "Set pulleys at hip height; one cable each hand",
+        "Slight forward lean; arms slightly bent and locked"
+      ],
+      "execution": [
+        "Sweep hands up and toward each other in an arc",
+        "Pause and squeeze at top (hands meet at upper chest level)"
+      ],
+      "mistakes": [
+        "Bending the elbow more during the rep (becomes a press)",
+        "Letting cables pull arms behind body line on stretch"
+      ],
+      "tips": [
+        "Pec deck is a great regression with the same upper-chest bias"
+      ]
+    }
   },
   "Dumbbell Isolateral Skull Crusher": {
     "slug": "Dumbbell_Lying_Triceps_Extension",
@@ -180,7 +418,24 @@
       "Triceps"
     ],
     "secondary": [],
-    "video": "https://www.youtube.com/watch?v=ZUZOn9c1VVI"
+    "video": "https://www.youtube.com/watch?v=ZUZOn9c1VVI",
+    "technique": {
+      "setup": [
+        "Flat bench; one dumbbell in each hand, neutral grip",
+        "Upper arms vertical, slight angle back toward head"
+      ],
+      "execution": [
+        "Lower bells past ears (deep triceps stretch)",
+        "Extend elbows back to lockout — only elbow joint moves"
+      ],
+      "mistakes": [
+        "Upper arms drifting forward (shifts work off triceps)",
+        "Flaring elbows out to the sides"
+      ],
+      "tips": [
+        "Slight angle (vs perfectly vertical) keeps tension on triceps throughout"
+      ]
+    }
   },
   "Dumbbell Lateral Raise": {
     "slug": "Side_Lateral_Raise",
@@ -190,7 +445,24 @@
     "secondary": [
       "Traps"
     ],
-    "video": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs"
+    "video": "https://www.youtube.com/shorts/Kl3LEzQ5Zqs",
+    "technique": {
+      "setup": [
+        "Slight torso lean forward (~10°); soft elbow bend (15°)",
+        "Dumbbells in front of thighs"
+      ],
+      "execution": [
+        "Raise out and slightly forward to shoulder height",
+        "Pinky slightly up at top (cue: \"pour a pitcher\")"
+      ],
+      "mistakes": [
+        "Going above shoulder height (traps take over)",
+        "Using momentum/swing instead of strict raise"
+      ],
+      "tips": [
+        "Hold a small pause at the top; cable variant for constant tension"
+      ]
+    }
   },
   "Ab Wheel Rollout": {
     "slug": "Ab_Roller",
@@ -200,7 +472,24 @@
     "secondary": [
       "Lats",
       "Shoulders"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "Kneel with wheel under shoulders; arms straight",
+        "Posteriorly tilt pelvis (squeeze glutes) — locked"
+      ],
+      "execution": [
+        "Roll out as far as you can hold neutral spine",
+        "Pull back via abs (not arms)"
+      ],
+      "mistakes": [
+        "Lower back sagging at extension (cut range short instead)",
+        "Pulling with shoulders/arms instead of abs"
+      ],
+      "tips": [
+        "Build to standing rollouts only after months of solid kneeling reps"
+      ]
+    }
   },
   "Close-Grip Bench Press": {
     "slug": "Close-Grip_Barbell_Bench_Press",
@@ -211,7 +500,24 @@
     "secondary": [
       "Front Delts"
     ],
-    "video": "https://www.youtube.com/shorts/vO0JXQHa4sg"
+    "video": "https://www.youtube.com/shorts/vO0JXQHa4sg",
+    "technique": {
+      "setup": [
+        "Grip shoulder-width; elbows tucked tight to sides",
+        "Same scapular set as flat bench"
+      ],
+      "execution": [
+        "Lower to lower sternum, elbows brushing ribs",
+        "Press up keeping elbows in — triceps drive the rep"
+      ],
+      "mistakes": [
+        "Going too narrow — wrist pain, no extra triceps recruitment",
+        "Flaring elbows (defeats the variation)"
+      ],
+      "tips": [
+        "Pin press or floor press variants overload top-half lockout"
+      ]
+    }
   },
   "Military Press": {
     "slug": "Standing_Military_Press",
@@ -224,7 +530,24 @@
       "Upper Chest",
       "Core"
     ],
-    "video": "https://www.youtube.com/shorts/4LBVP2Oe7fg"
+    "video": "https://www.youtube.com/shorts/4LBVP2Oe7fg",
+    "technique": {
+      "setup": [
+        "Bar in front rack, hands just outside shoulders",
+        "Glutes squeezed, ribs down, tight core"
+      ],
+      "execution": [
+        "Press up — push your head through the bar at lockout",
+        "Lock out over mid-foot, not in front"
+      ],
+      "mistakes": [
+        "Excessive lower-back arch (lumbar hyperextension)",
+        "Pushing the bar forward instead of up"
+      ],
+      "tips": [
+        "Slight push-press for top sets allows heavier overload through sticking point"
+      ]
+    }
   },
   "Dumbbell Incline Press": {
     "slug": "Dumbbell_Incline_Bench_Press",
@@ -235,7 +558,24 @@
       "Front Delts",
       "Triceps"
     ],
-    "video": "https://www.youtube.com/shorts/8fXfwG4ftaQ"
+    "video": "https://www.youtube.com/shorts/8fXfwG4ftaQ",
+    "technique": {
+      "setup": [
+        "Bench at 30° (sweet spot for upper-chest emphasis)",
+        "Scapulae retracted, dumbbells over lower chest"
+      ],
+      "execution": [
+        "Lower with elbows ~45° to side of upper chest",
+        "Press up; bells meet over upper chest at top"
+      ],
+      "mistakes": [
+        "Bench too steep (>45°) — becomes shoulder press",
+        "Pressing in (clanking bells) loses pec tension"
+      ],
+      "tips": [
+        "30° outperforms flat bench for upper-chest growth (Chaves et al. 2020)"
+      ]
+    }
   },
   "Pec Deck": {
     "slug": "Butterfly",
@@ -245,7 +585,24 @@
     "secondary": [
       "Front Delts"
     ],
-    "video": "https://www.youtube.com/shorts/CRroep849bU"
+    "video": "https://www.youtube.com/shorts/CRroep849bU",
+    "technique": {
+      "setup": [
+        "Back firm against pad; forearms on pads (or grip handles)",
+        "Slight elbow bend, shoulders down"
+      ],
+      "execution": [
+        "Squeeze elbows together in front of chest",
+        "Slow open (~2s) into a deep stretch"
+      ],
+      "mistakes": [
+        "Shrugging shoulders forward to help close",
+        "Bouncing out of the stretch"
+      ],
+      "tips": [
+        "Stretched-position partials at end of set drive extra pec growth"
+      ]
+    }
   },
   "Cable Lateral Raise": {
     "slug": "Side_Lateral_Raise",
@@ -260,7 +617,24 @@
     "primary": [
       "Triceps"
     ],
-    "secondary": []
+    "secondary": [],
+    "technique": {
+      "setup": [
+        "Cable set low; lean forward, upper arm parallel to torso",
+        "Pin elbow tight against side throughout"
+      ],
+      "execution": [
+        "Extend forearm back; lock out + squeeze 1s",
+        "Slow return — never let elbow drift forward"
+      ],
+      "mistakes": [
+        "Letting elbow swing — only the forearm should move",
+        "Using too much weight (loses isolation)"
+      ],
+      "tips": [
+        "Cable beats dumbbell version — constant tension all the way through ROM"
+      ]
+    }
   },
   "Bicycle Crunch": {
     "slug": "Air_Bike",
@@ -269,7 +643,24 @@
       "Obliques"
     ],
     "secondary": [],
-    "video": "https://www.youtube.com/watch?v=NGRKFMKhF8s"
+    "video": "https://www.youtube.com/watch?v=NGRKFMKhF8s",
+    "technique": {
+      "setup": [
+        "Lie supine; hands lightly behind head (don't pull)",
+        "Lower back pressed into floor"
+      ],
+      "execution": [
+        "Bring opposite elbow to knee; rotate from torso",
+        "Slow and controlled — quality > speed"
+      ],
+      "mistakes": [
+        "Yanking on the neck",
+        "Going fast (becomes momentum, not abs)"
+      ],
+      "tips": [
+        "Pause briefly at full rotation for max oblique recruitment"
+      ]
+    }
   },
   "Pull-up": {
     "slug": "Pullups",
@@ -281,7 +672,24 @@
       "Biceps",
       "Forearms"
     ],
-    "video": "https://www.youtube.com/shorts/ZPG8OsHKXLw"
+    "video": "https://www.youtube.com/shorts/ZPG8OsHKXLw",
+    "technique": {
+      "setup": [
+        "Dead hang with hands ~shoulder-width, palms forward",
+        "Engage scapula down + back before pulling"
+      ],
+      "execution": [
+        "Pull chest to bar; chin clears it",
+        "Lower under control to full hang"
+      ],
+      "mistakes": [
+        "Kipping or swinging — turns it into a CrossFit move",
+        "Stopping at chin (half rep)"
+      ],
+      "tips": [
+        "Add band assistance for deficits; weighted belt once 10+ bodyweight reps clean"
+      ]
+    }
   },
   "Pendlay Row": {
     "slug": "Bent_Over_Barbell_Row",
@@ -293,7 +701,24 @@
       "Rear Delts",
       "Biceps"
     ],
-    "video": "https://www.youtube.com/shorts/0PSfteHhUtg"
+    "video": "https://www.youtube.com/shorts/0PSfteHhUtg",
+    "technique": {
+      "setup": [
+        "Bar over mid-foot; torso parallel to floor",
+        "Overhand grip just outside knees"
+      ],
+      "execution": [
+        "Explosively row bar to lower chest/upper abs",
+        "Reset bar on floor between every rep — dead-stop reps"
+      ],
+      "mistakes": [
+        "Torso rising during the row (becomes a lat-less power lift)",
+        "Pulling to belly button (recruits less upper back)"
+      ],
+      "tips": [
+        "Classic strict version is brutal upper-back size builder"
+      ]
+    }
   },
   "Machine High Row": {
     "slug": "Hammer_Grip_Pulldowns",
@@ -315,14 +740,48 @@
     "secondary": [
       "Traps"
     ],
-    "video": "https://www.youtube.com/shorts/sQh0EBVVmaI"
+    "video": "https://www.youtube.com/shorts/sQh0EBVVmaI",
+    "technique": {
+      "setup": [
+        "Cable at face height; rope attachment",
+        "Seated, arms straight, chest tall"
+      ],
+      "execution": [
+        "Pull rope to face — elbows lead, ends of rope split to sides of head",
+        "External rotation: thumbs back at end position"
+      ],
+      "mistakes": [
+        "Pulling to chest (loses rear delt + rotator cuff focus)",
+        "Letting shoulders shrug up"
+      ],
+      "tips": [
+        "Best single exercise for shoulder health + posture; do them often"
+      ]
+    }
   },
   "1 Arm Lat Pull-in": {
     "slug": "Straight-Arm_Pulldown",
     "primary": [
       "Lats"
     ],
-    "secondary": []
+    "secondary": [],
+    "technique": {
+      "setup": [
+        "Cable high, side stance, one arm reaches up to handle",
+        "Free hand on hip or stabilizer; soft elbow lock"
+      ],
+      "execution": [
+        "Pull arm down to side, laterally flex torso into the pull",
+        "Squeeze lat at bottom; slow stretch to top"
+      ],
+      "mistakes": [
+        "Bending elbow (turns into row)",
+        "Using shoulder rotation instead of lat"
+      ],
+      "tips": [
+        "Light isolation warm-up — primes lats for heavier work"
+      ]
+    }
   },
   "Dumbbell Preacher Curl": {
     "slug": "Dumbbell_Bicep_Curl",
@@ -331,7 +790,24 @@
     ],
     "secondary": [
       "Forearms"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "Arms over pad, armpits against top edge",
+        "Dumbbells with supinated grip; full extension at bottom"
+      ],
+      "execution": [
+        "Curl up — squeeze biceps hard at top",
+        "Slow descent (~3s); short of full elbow lock at bottom"
+      ],
+      "mistakes": [
+        "Coming off the pad to cheat",
+        "Letting elbow extend fully under load (biceps tendon stress)"
+      ],
+      "tips": [
+        "Single-arm preacher allows full focus on one side per set"
+      ]
+    }
   },
   "Reverse Grip EZ Bar Curl": {
     "slug": "Reverse_Barbell_Curl",
@@ -341,7 +817,24 @@
     ],
     "secondary": [
       "Biceps"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "EZ bar, pronated grip (palms down); shoulder-width",
+        "Elbows pinned at sides"
+      ],
+      "execution": [
+        "Curl up — squeeze forearms + brachialis at top",
+        "Slow eccentric — don't lose wrist position"
+      ],
+      "mistakes": [
+        "Wrist bending under load (use straight wrists)",
+        "Using momentum/body english"
+      ],
+      "tips": [
+        "Hits brachialis hard — drives upper-arm thickness more than biceps width"
+      ]
+    }
   },
   "Supinated EZ Bar Curl": {
     "slug": "EZ-Bar_Curl",
@@ -351,7 +844,24 @@
     "secondary": [
       "Forearms"
     ],
-    "video": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo"
+    "video": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo",
+    "technique": {
+      "setup": [
+        "EZ bar, supinated grip (palms up); shoulder-width",
+        "Elbows tucked tight to sides"
+      ],
+      "execution": [
+        "Curl up to top — biceps squeeze",
+        "Slow descent; full elbow extension at bottom"
+      ],
+      "mistakes": [
+        "Swinging body to start the rep",
+        "Lifting elbows forward (front delts take over)"
+      ],
+      "tips": [
+        "EZ bar is more wrist-friendly than straight bar with similar gains"
+      ]
+    }
   },
   "Neutral-Grip Pulldown": {
     "slug": "Hammer_Grip_Pulldowns",
@@ -362,7 +872,24 @@
       "Biceps",
       "Upper Back"
     ],
-    "video": "https://www.youtube.com/shorts/bNmvKpJSWKM"
+    "video": "https://www.youtube.com/shorts/bNmvKpJSWKM",
+    "technique": {
+      "setup": [
+        "Knees locked under pad; lean ~10° back",
+        "Neutral handle; grip just outside shoulder width"
+      ],
+      "execution": [
+        "Pull handle to upper chest; elbows drive down + back",
+        "Squeeze lats at bottom; slow stretch at top"
+      ],
+      "mistakes": [
+        "Excessive lean-back (becomes a row)",
+        "Pulling with biceps instead of leading with elbows"
+      ],
+      "tips": [
+        "Neutral grip is most shoulder-friendly and great for lat thickness"
+      ]
+    }
   },
   "Cable Seated Elbows Out Row": {
     "slug": "Seated_Cable_Rows",
@@ -385,7 +912,24 @@
       "Biceps",
       "Rear Delts"
     ],
-    "video": "https://www.youtube.com/shorts/8QuMq1GMMng"
+    "video": "https://www.youtube.com/shorts/8QuMq1GMMng",
+    "technique": {
+      "setup": [
+        "Tall seated, knees slightly bent, chest tall",
+        "Lats engaged before you pull (depress shoulders)"
+      ],
+      "execution": [
+        "Pull handle to lower sternum; elbows tuck along ribs",
+        "Squeeze 1s; slow return to full lat stretch"
+      ],
+      "mistakes": [
+        "Rocking the torso forward/back (lower-back swing)",
+        "Letting shoulders round forward at stretch"
+      ],
+      "tips": [
+        "Wide grip + elbows out hits rear delts/upper back; close + tucked hits lats"
+      ]
+    }
   },
   "Kneeling Straight-Arm Cable Pull-Over": {
     "slug": "Straight-Arm_Pulldown",
@@ -394,7 +938,24 @@
     ],
     "secondary": [
       "Triceps (Long Head)"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "Cable high; kneel facing the machine",
+        "Torso lean forward ~30-45°; arms locked"
+      ],
+      "execution": [
+        "Pull rope/bar down to thighs in an arc",
+        "Squeeze lats hard; slow return overhead"
+      ],
+      "mistakes": [
+        "Bending elbows mid-rep — turns it into pressdown",
+        "Pulling with traps/biceps instead of lats"
+      ],
+      "tips": [
+        "Best lat-isolation move there is; perfect lat finisher"
+      ]
+    }
   },
   "Snatch Grip Barbell Shrug": {
     "slug": "Barbell_Shrug",
@@ -405,7 +966,24 @@
       "Upper Back",
       "Forearms"
     ],
-    "video": "https://youtu.be/9B-5irFdB3c?t=6m28s"
+    "video": "https://youtu.be/9B-5irFdB3c?t=6m28s",
+    "technique": {
+      "setup": [
+        "Grip ~1.5× shoulder width, bar at hip",
+        "Brace core, slight knee bend"
+      ],
+      "execution": [
+        "Shrug up and slightly back — drive traps to ears",
+        "Pause 1s top; slow descent"
+      ],
+      "mistakes": [
+        "Rolling shoulders (no traps benefit, just shoulder strain)",
+        "Using too much weight + short range"
+      ],
+      "tips": [
+        "Wider grip hits upper traps more than standard shrug grip"
+      ]
+    }
   },
   "Cable Reverse Flye": {
     "slug": "Standing_Cable_Reverse_Fly",
@@ -415,7 +993,24 @@
     "secondary": [
       "Upper Back"
     ],
-    "video": "https://www.youtube.com/watch?v=QnXb1dh_RjQ"
+    "video": "https://www.youtube.com/watch?v=QnXb1dh_RjQ",
+    "technique": {
+      "setup": [
+        "Cables crossed in front; opposite-side handle each hand",
+        "Slight forward lean; soft elbow bend"
+      ],
+      "execution": [
+        "Sweep arms out and back; squeeze rear delts hard",
+        "Slow return — don't let cables drag arms forward"
+      ],
+      "mistakes": [
+        "Using too much weight (back muscles take over)",
+        "Bending elbows mid-rep (becomes a row)"
+      ],
+      "tips": [
+        "Light weight, high reps (15-20+) works best for rear delts"
+      ]
+    }
   },
   "Single-Arm Cable Curl": {
     "slug": "Cable_Hammer_Curls_-_Rope_Attachment",
@@ -424,7 +1019,24 @@
     ],
     "secondary": [
       "Forearms"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "Stand sideways to machine, cable low",
+        "Elbow behind torso for full peak contraction"
+      ],
+      "execution": [
+        "Curl with strict elbow position",
+        "Squeeze top 1s; slow descent"
+      ],
+      "mistakes": [
+        "Letting elbow drift forward as you curl",
+        "Lifting shoulder to cheat the weight"
+      ],
+      "tips": [
+        "Constant tension makes cable curls great for short-head biceps peak"
+      ]
+    }
   },
   "Hammer Curl": {
     "slug": "Hammer_Curls",
@@ -434,7 +1046,24 @@
     ],
     "secondary": [
       "Forearms"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "Dumbbells neutral grip (thumbs up), arms at sides",
+        "Elbows pinned"
+      ],
+      "execution": [
+        "Curl up keeping wrists neutral throughout",
+        "Slow eccentric to full stretch"
+      ],
+      "mistakes": [
+        "Rotating wrists during rep",
+        "Swinging or using torso momentum"
+      ],
+      "tips": [
+        "Hits brachialis + brachioradialis — adds arm thickness traditional curls miss"
+      ]
+    }
   },
   "Tempo Back Squat": {
     "slug": "Barbell_Squat",
@@ -457,7 +1086,24 @@
     ],
     "secondary": [
       "Lower Back"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "Upper back deliberately rounded (yes — for glute focus)",
+        "Dumbbell held at chest; pad just above hip crease"
+      ],
+      "execution": [
+        "Drive hips into pad like a hip thrust; flex spine at top",
+        "Slow descent into a deep glute stretch"
+      ],
+      "mistakes": [
+        "Treating it like a back extension (long lever, lower back loaded)",
+        "Going to vertical too fast — kill the bottom stretch"
+      ],
+      "tips": [
+        "Different from \"stiff back\" hypers — this one is glute-biased"
+      ]
+    }
   },
   "Smith Machine Reverse Lunge": {
     "slug": "Smith_Machine_Squat",
@@ -497,7 +1143,24 @@
     "secondary": [
       "Hip Abductors"
     ],
-    "video": "https://www.youtube.com/watch?v=-seSnS4N8Xo"
+    "video": "https://www.youtube.com/watch?v=-seSnS4N8Xo",
+    "technique": {
+      "setup": [
+        "Band just above knees or around ankles",
+        "Quarter-squat: knees soft, hips back"
+      ],
+      "execution": [
+        "Step sideways with the leading leg — band stays tense",
+        "Trailing leg follows; never relaxed band"
+      ],
+      "mistakes": [
+        "Standing too upright (kills glute medius tension)",
+        "Knees collapsing inward as you step"
+      ],
+      "tips": [
+        "Use as a glute med activation primer before squat/deadlift"
+      ]
+    }
   },
   "Tempo Standing Calf Raise": {
     "slug": "Standing_Calf_Raises",
@@ -517,7 +1180,24 @@
       "Triceps",
       "Upper Chest"
     ],
-    "video": "https://www.youtube.com/shorts/2Dj5qZT7qIo"
+    "video": "https://www.youtube.com/shorts/2Dj5qZT7qIo",
+    "technique": {
+      "setup": [
+        "Start: dumbbells in front, palms toward face, elbows tucked",
+        "Seated, back supported"
+      ],
+      "execution": [
+        "Rotate palms out as you press up — finish overhead",
+        "Reverse the rotation on the way down"
+      ],
+      "mistakes": [
+        "Rotating before pressing (loses tension)",
+        "Lowering only to shoulder height (missing stretch)"
+      ],
+      "tips": [
+        "Adds front-delt + rotator cuff activation vs straight DB press"
+      ]
+    }
   },
   "Close-Grip Smith Machine Press": {
     "slug": "Close-Grip_Barbell_Bench_Press",
@@ -551,7 +1231,24 @@
       "Triceps (Long Head)"
     ],
     "secondary": [],
-    "video": "https://www.youtube.com/watch?v=FxK2mF0iPXs"
+    "video": "https://www.youtube.com/watch?v=FxK2mF0iPXs",
+    "technique": {
+      "setup": [
+        "Face away from cable; rope behind head",
+        "Upper arms close to head, elbows pointing forward"
+      ],
+      "execution": [
+        "Extend rope up and out at lockout",
+        "Slow stretch back behind head — feel the long head"
+      ],
+      "mistakes": [
+        "Letting elbows flare to the sides",
+        "Stopping short of full stretch (the whole point of overhead)"
+      ],
+      "tips": [
+        "Long head of triceps gets best growth stimulus from stretched positions"
+      ]
+    }
   },
   "Hanging Leg Raise": {
     "slug": "Hanging_Leg_Raise",
@@ -561,7 +1258,24 @@
     ],
     "secondary": [
       "Forearms (Grip)"
-    ]
+    ],
+    "technique": {
+      "setup": [
+        "Hang from bar with full grip; slight shoulder engagement",
+        "Posteriorly tilt pelvis to start (this is the cue)"
+      ],
+      "execution": [
+        "Curl knees (regression) or straight legs (full) up to bar height",
+        "Lower slowly — don't just drop"
+      ],
+      "mistakes": [
+        "Swinging — uses momentum, not abs",
+        "Leg raise only (no pelvic tilt) — that's hip flexor work, not abs"
+      ],
+      "tips": [
+        "Toes-to-bar is the full version; knee tucks first if straight legs too hard"
+      ]
+    }
   },
   "Dumbbell One-Arm Row": {
     "slug": "One-Arm_Dumbbell_Row",
@@ -573,7 +1287,24 @@
       "Biceps",
       "Rear Delts"
     ],
-    "video": "https://www.youtube.com/shorts/jpZFcJ8tBj0"
+    "video": "https://www.youtube.com/shorts/jpZFcJ8tBj0",
+    "technique": {
+      "setup": [
+        "Knee + opposite hand on bench; back flat",
+        "Dumbbell hangs straight down, weak-side foot grounded"
+      ],
+      "execution": [
+        "Row elbow up and back along ribs",
+        "Squeeze lat at top; slow descent into full stretch"
+      ],
+      "mistakes": [
+        "Torso rotation to cheat the weight up",
+        "Pulling with the arm instead of leading with the elbow"
+      ],
+      "tips": [
+        "Slight stretch at bottom (let dumbbell pull shoulder forward) drives lat growth"
+      ]
+    }
   },
   "Chest-Supported T-Bar Row w/ Band": {
     "slug": "T-Bar_Row_with_Handle",
@@ -585,7 +1316,24 @@
       "Rear Delts",
       "Biceps"
     ],
-    "video": "https://www.youtube.com/watch?v=w0KnlQ-b7jw"
+    "video": "https://www.youtube.com/watch?v=w0KnlQ-b7jw",
+    "technique": {
+      "setup": [
+        "Chest pad firmly supported; feet planted",
+        "Neutral grip (or wide); band attached for extra tension top"
+      ],
+      "execution": [
+        "Row toward upper abs; squeeze upper back at top",
+        "Slow eccentric — fight the band on the way down"
+      ],
+      "mistakes": [
+        "Lifting chest off the pad (loses isolation)",
+        "Pulling with hands instead of driving elbows back"
+      ],
+      "tips": [
+        "Band adds end-range overload — most rows have least tension at peak"
+      ]
+    }
   },
   "Low-to-High Reverse Flye": {
     "slug": "Standing_Cable_Reverse_Fly",
@@ -607,7 +1355,24 @@
     "secondary": [
       "Biceps"
     ],
-    "video": "https://youtu.be/KyTAraGimfE?t=6m35s"
+    "video": "https://youtu.be/KyTAraGimfE?t=6m35s",
+    "technique": {
+      "setup": [
+        "Cable low; rope attachment, hands shoulder-width",
+        "Stand close to machine; tall posture"
+      ],
+      "execution": [
+        "Pull rope up and out — elbows lead, hands flare apart",
+        "Stop at chest height (no higher) — squeeze top"
+      ],
+      "mistakes": [
+        "Going above chest height (shoulder impingement risk)",
+        "Pulling with biceps instead of side delts"
+      ],
+      "tips": [
+        "Wide grip + low pull = side delt/upper trap focus; safer than barbell variant"
+      ]
+    }
   },
   "Dumbbell Supinated Curl": {
     "slug": "Dumbbell_Bicep_Curl",
@@ -627,7 +1392,24 @@
     "secondary": [
       "Forearms"
     ],
-    "video": "https://youtu.be/ebyOmAZUqzo?t=11m38s"
+    "video": "https://youtu.be/ebyOmAZUqzo?t=11m38s",
+    "technique": {
+      "setup": [
+        "Lie chest-down on incline bench (~45°)",
+        "Arms hang straight; supinated grip on bar or DBs"
+      ],
+      "execution": [
+        "Curl up — only the forearm moves (elbows perpendicular to floor)",
+        "Squeeze hard at top; slow eccentric to full stretch"
+      ],
+      "mistakes": [
+        "Letting elbows swing back to cheat",
+        "Coming off the bench"
+      ],
+      "tips": [
+        "Eliminates body english — pure biceps stimulus"
+      ]
+    }
   },
   "Romanian Deadlift": {
     "slug": "Romanian_Deadlift",
@@ -639,7 +1421,24 @@
       "Lower Back",
       "Forearms"
     ],
-    "video": "https://www.youtube.com/shorts/ecuZtKTNI9U"
+    "video": "https://www.youtube.com/shorts/ecuZtKTNI9U",
+    "technique": {
+      "setup": [
+        "Stand tall with bar at hip crease, slight knee bend (≈15°)",
+        "Lats engaged, shoulders over bar"
+      ],
+      "execution": [
+        "Push hips back (hinge) — keep bar against thighs",
+        "Descend until you feel hamstring stretch (~mid-shin), drive hips forward"
+      ],
+      "mistakes": [
+        "Squatting instead of hinging — knees stay nearly static",
+        "Rounding the lower back at bottom"
+      ],
+      "tips": [
+        "Stop where flexibility ends; don't chase floor depth"
+      ]
+    }
   },
   "Pause Barbell Hip Thrust": {
     "slug": "Barbell_Hip_Thrust",
@@ -703,7 +1502,24 @@
       "Triceps"
     ],
     "secondary": [],
-    "video": "https://www.youtube.com/shorts/leazgWMaSo8"
+    "video": "https://www.youtube.com/shorts/leazgWMaSo8",
+    "technique": {
+      "setup": [
+        "Stand close to stack; elbows pinned at sides",
+        "Slight forward lean; engage core"
+      ],
+      "execution": [
+        "Press down to full extension; squeeze 1s",
+        "Control return to ~90° at elbow"
+      ],
+      "mistakes": [
+        "Elbows flaring out or drifting forward",
+        "Leaning over the bar (using body weight = cheat)"
+      ],
+      "tips": [
+        "Rope attachment + separating hands at lockout = extra long-head emphasis"
+      ]
+    }
   },
   "Machine Lateral Raise": {
     "slug": "Side_Lateral_Raise",
@@ -722,7 +1538,24 @@
       "Shoulders",
       "Glutes"
     ],
-    "video": "https://www.youtube.com/watch?v=kL_NJAkCQBg"
+    "video": "https://www.youtube.com/watch?v=kL_NJAkCQBg",
+    "technique": {
+      "setup": [
+        "Forearms shoulder-width; elbows under shoulders",
+        "Body in straight line: head, hips, heels aligned"
+      ],
+      "execution": [
+        "Squeeze glutes + quads to lock pelvis neutral",
+        "Hold while breathing — don't hold breath"
+      ],
+      "mistakes": [
+        "Hips sagging (lower back stressed) or hips piking up",
+        "Holding longer past form failure"
+      ],
+      "tips": [
+        "30-60s of tight plank beats 3-minutes of sloppy hold; weighted variants for progression"
+      ]
+    }
   },
   "Single-Arm Pulldown": {
     "slug": "Wide-Grip_Lat_Pulldown",
@@ -775,5 +1608,59 @@
     "secondary": [
       "Forearms"
     ]
+  },
+  "Goblet Squat": {
+    "slug": "Dumbbell_Squat",
+    "primary": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondary": [
+      "Core",
+      "Upper Back"
+    ],
+    "technique": {
+      "setup": [
+        "Hold dumbbell at chest, elbows tucked in",
+        "Stance slightly wider than shoulder-width, toes out"
+      ],
+      "execution": [
+        "Sit down between the heels; chest up",
+        "Drive knees out, stand tall"
+      ],
+      "mistakes": [
+        "Letting elbows drift forward (counterweight lost)",
+        "Heels coming up"
+      ],
+      "tips": [
+        "Pause 2-3s at bottom for mobility + control"
+      ]
+    }
+  },
+  "Lying Leg Curl": {
+    "slug": "Lying_Leg_Curls",
+    "primary": [
+      "Hamstrings"
+    ],
+    "secondary": [
+      "Calves"
+    ],
+    "technique": {
+      "setup": [
+        "Knees just past edge of pad, hips pressed down",
+        "Pad sits on Achilles, not calves"
+      ],
+      "execution": [
+        "Curl heels to glutes; brief squeeze at top",
+        "Control the descent (~2s)"
+      ],
+      "mistakes": [
+        "Lifting hips off pad — defeats hamstring isolation",
+        "Half-range reps (only top or bottom)"
+      ],
+      "tips": [
+        "Single-leg variant evens out side-to-side imbalances"
+      ]
+    }
   }
 }

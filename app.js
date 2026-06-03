@@ -652,7 +652,63 @@ function mergeMeta(ex, displayName) {
     primary:   (ex.primary  && ex.primary.length)  ? ex.primary  : (base.primary  || []),
     secondary: (ex.secondary && ex.secondary.length)? ex.secondary: (base.secondary || []),
     video:     (ex.video && ex.video.trim()) || base.video || null,
+    technique: (ex.technique) || base.technique || lookupTechniqueFallback(displayName) || null,
   };
+}
+
+// Variants like "Tempo Back Squat", "Slow Eccentric Dip", "Pause Barbell Hip
+// Thrust" don't have their own technique data — they share the parent
+// movement's cues. Two resolution stages:
+//   1) Strip common modifiers from the front and try the base name.
+//   2) Explicit alias lookup for variants that don't share a clean stem.
+const TECHNIQUE_MODIFIERS = [
+  /^(Tempo|Pause|Slow Eccentric|Enhanced-Eccentric|Single-Leg|Single-Arm|Snatch Grip|Close-Grip|Wide-Grip|Reverse Grip|Smith Machine|Cable|Machine|Egyptian|Rope|Dumbbell|Barbell|EZ Bar|Supinated|Pronated|Hammer|Spider|Round-Back|Weighted|Neutral-Grip|Low-to-High)\s+/i,
+];
+// Variant → canonical technique source.
+const TECHNIQUE_ALIASES = {
+  'Cable Lateral Raise':                'Dumbbell Lateral Raise',
+  'Machine Lateral Raise':              'Dumbbell Lateral Raise',
+  'Egyptian Lateral Raise':             'Dumbbell Lateral Raise',
+  'Reverse Pec Deck':                   'Cable Reverse Flye',
+  'Low-to-High Reverse Flye':           'Cable Reverse Flye',
+  'Single-Arm Pulldown':                'Neutral-Grip Pulldown',
+  'Machine High Row':                   'Neutral-Grip Pulldown',
+  'Cable Seated Elbows Out Row':        'Cable Seated Row',
+  'Seal Row':                           'Pendlay Row',
+  'Smith Machine Reverse Lunge':        'Dumbbell Walking Lunge',
+  'Close-Grip Smith Machine Press':     'Close-Grip Bench Press',
+  'Barbell Floor Skull Crusher':        'Dumbbell Isolateral Skull Crusher',
+  'Cable Rope Pullthrough':             'Cable Pull Through',
+  'Military Press / Push Press Complex':'Military Press',
+  'Swiss Ball Single-Leg Leg Curl':     'Lying Leg Curl',
+  'Enhanced-Eccentric Lying Leg Curl':  'Lying Leg Curl',
+  'Slow Eccentric Goblet Squat':        'Goblet Squat',
+  'Slow Eccentric Dip':                 'Weighted Dip',
+  'Dumbbell Supinated Curl':            'Supinated EZ Bar Curl',
+  'Dumbbell Pronated Curl':             'Reverse Grip EZ Bar Curl',
+};
+function lookupTechniqueFallback(name) {
+  if (!name) return null;
+  let n = name.replace(/^A\d+:\s*/, '').trim();
+  // Stage 1: progressively strip modifiers from the front.
+  for (let pass = 0; pass < 4; pass++) {
+    const m = lookupExerciseMeta(n);
+    if (m && m.technique) return m.technique;
+    let changed = false;
+    for (const re of TECHNIQUE_MODIFIERS) {
+      const next = n.replace(re, '').trim();
+      if (next && next !== n) { n = next; changed = true; break; }
+    }
+    if (!changed) break;
+  }
+  // Stage 2: explicit alias.
+  const original = name.replace(/^A\d+:\s*/, '').trim();
+  const alias = TECHNIQUE_ALIASES[original];
+  if (alias) {
+    const m = lookupExerciseMeta(alias);
+    if (m && m.technique) return m.technique;
+  }
+  return null;
 }
 
 // Returns an element that cycles between the exercise's frame 0 and frame 1
@@ -757,19 +813,28 @@ function openDemoModal(displayName, ex) {
     body.appendChild(muscles);
   }
 
-  // Coach notes
+  // Coach notes (PDF — short)
   if (ex.notes) {
     const lab = document.createElement('div');
     lab.className = 'demo-section-label';
     lab.textContent = 'Coach notes';
     body.appendChild(lab);
     const p = document.createElement('p');
-    p.style.color = 'var(--text-dim)';
+    p.style.color = 'var(--text-70)';
     p.style.fontSize = '13px';
     p.style.lineHeight = '1.5';
     p.style.margin = '0';
     p.textContent = ex.notes;
     body.appendChild(p);
+  }
+
+  // Technique — structured cues (Setup / Execution / Common mistakes / Pro tips)
+  if (m.technique) {
+    const lab = document.createElement('div');
+    lab.className = 'demo-section-label';
+    lab.textContent = 'Technique';
+    body.appendChild(lab);
+    body.appendChild(renderTechniquePanel(m.technique));
   }
 
   // YouTube embed (or graceful note)
@@ -821,6 +886,37 @@ function closeDemoModal() {
   modal.hidden = true;
 }
 
+// Render a compact 4-section Technique panel from { setup, execution, mistakes, tips }.
+function renderTechniquePanel(t) {
+  const wrap = document.createElement('div');
+  wrap.className = 'technique-panel';
+  const sections = [
+    ['Setup',           t.setup,     'tech-setup'],
+    ['Execution',       t.execution, 'tech-execution'],
+    ['Common mistakes', t.mistakes,  'tech-mistakes'],
+    ['Pro tips',        t.tips,      'tech-tips'],
+  ];
+  for (const [label, bullets, cls] of sections) {
+    if (!bullets || !bullets.length) continue;
+    const section = document.createElement('div');
+    section.className = `tech-section ${cls}`;
+    const h = document.createElement('div');
+    h.className = 'tech-section-head';
+    h.textContent = label;
+    section.appendChild(h);
+    const ul = document.createElement('ul');
+    ul.className = 'tech-list';
+    for (const b of bullets) {
+      const li = document.createElement('li');
+      li.textContent = b;
+      ul.appendChild(li);
+    }
+    section.appendChild(ul);
+    wrap.appendChild(section);
+  }
+  return wrap;
+}
+
 // ===================================================================
 // Exercise editor — add / edit / delete an exercise
 // ===================================================================
@@ -860,6 +956,7 @@ function openEditModal({ mode, exKey, focusVideo }) {
       secondary: (meta.secondary || []).join(', '),
       slug: ex.slug || meta.slug || '',
       video: ex.video || meta.video || '',
+      technique: ex.technique || meta.technique || { setup: [], execution: [], mistakes: [], tips: [] },
     };
     titleEl.textContent = ex._isCustom ? 'Edit custom exercise' : 'Edit exercise';
     resetBtn.hidden = !ex._hasEdit;        // only show Reset if there's an edit to undo
@@ -870,6 +967,7 @@ function openEditModal({ mode, exKey, focusVideo }) {
       loadType: 'rpe', loadValue: 8,
       rest: '1-2min', notes: '', supersetGroup: '',
       primary: '', secondary: '', slug: '', video: '',
+      technique: { setup: [], execution: [], mistakes: [], tips: [] },
     };
     titleEl.textContent = 'Add exercise';
     resetBtn.hidden = true;
@@ -888,6 +986,10 @@ function openEditModal({ mode, exKey, focusVideo }) {
   form.secondary.value = initial.secondary;
   form.slug.value = initial.slug;
   form.video.value = initial.video;
+  form.techSetup.value     = (initial.technique.setup     || []).join('\n');
+  form.techExecution.value = (initial.technique.execution || []).join('\n');
+  form.techMistakes.value  = (initial.technique.mistakes  || []).join('\n');
+  form.techTips.value      = (initial.technique.tips      || []).join('\n');
 
   setEditorLoadType(initial.loadType);
 
@@ -914,6 +1016,13 @@ function setEditorLoadType(t) {
 
 function readEditorForm() {
   const form = document.getElementById('edit-form');
+  const lines = el => el.value.split('\n').map(s => s.trim()).filter(Boolean);
+  const setup     = lines(form.techSetup);
+  const execution = lines(form.techExecution);
+  const mistakes  = lines(form.techMistakes);
+  const tips      = lines(form.techTips);
+  const technique = (setup.length || execution.length || mistakes.length || tips.length)
+    ? { setup, execution, mistakes, tips } : null;
   return {
     name: form.name.value.trim(),
     sets: parseInt(form.sets.value, 10),
@@ -927,6 +1036,7 @@ function readEditorForm() {
     secondary: form.secondary.value.split(',').map(s => s.trim()).filter(Boolean),
     slug: form.slug.value.trim(),
     video: form.video.value.trim(),
+    technique,
   };
 }
 
@@ -965,6 +1075,7 @@ function saveEditor() {
     secondary: data.secondary,
     slug: data.slug,
     video: data.video,
+    technique: data.technique,
   };
 
   if (editor.mode === 'add') {
